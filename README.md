@@ -1,2 +1,2 @@
 # functional-programming
-Well known algorithms using FP
+This repository contains code for well known algorithms written using functional programming paradigm in JavaScript language.
