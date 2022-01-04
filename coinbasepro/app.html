@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./script.mjs"></script>
+    <title>TODO App</title>
+  </head>
+  <body>
+    <main id="app">
+      <header class="header">
+        <h2>Coinbase Pro</h2>
+      </header>
+      <article class="placeOrder" id="placeOrder">
+        <section>
+          <button>Buy</button>
+          <button>Sell</button>
+        </section>
+        <section>
+          <label for="amount">Amount</label>
+          <br/>
+          <input type='number' id="amount" min="0"></input>
+          <br/>
+          <br/>
+          <label for="price">Price</label>
+          <br/>
+          <input type='number' id="price" min="0"></input>
+        </section>
+        <section>
+          <button id="placeOrderBtn" type="button">PLACE ORDER</button>
+        </section>
+      </article>
+      <article class="orderBook" id="orderBook"></article>
+    </main>
+  </body>
+</html>
